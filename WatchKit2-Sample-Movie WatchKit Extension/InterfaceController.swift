@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var movie: WKInterfaceMovie!
+
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -21,6 +23,9 @@ class InterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        let moviePath = NSBundle.mainBundle().pathForResource("video", ofType: "mov")
+        movie.setMovieURL(NSURL(fileURLWithPath: moviePath!))
     }
 
     override func didDeactivate() {
