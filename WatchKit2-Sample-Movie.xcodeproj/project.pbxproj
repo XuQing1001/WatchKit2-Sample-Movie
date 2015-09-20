@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1CEC641B52647300BA22BD /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CEC621B52647300BA22BD /* video.mov */; };
+		0D1CEC651B52647300BA22BD /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CEC621B52647300BA22BD /* video.mov */; };
+		0D1CEC671B5264E800BA22BD /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CEC621B52647300BA22BD /* video.mov */; };
 		0D7142CA1B524A1000DA07E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7142C91B524A1000DA07E8 /* AppDelegate.swift */; };
 		0D7142CC1B524A1000DA07E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7142CB1B524A1000DA07E8 /* ViewController.swift */; };
 		0D7142CF1B524A1000DA07E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7142CD1B524A1000DA07E8 /* Main.storyboard */; };
@@ -64,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D1CEC621B52647300BA22BD /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video.mov; path = "../WatchKit2-Sample-Movie/video.mov"; sourceTree = "<group>"; };
 		0D7142C61B524A1000DA07E8 /* WatchKit2-Sample-Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKit2-Sample-Movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7142C91B524A1000DA07E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D7142CB1B524A1000DA07E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 		0D7142DC1B524A1000DA07E8 /* WatchKit2-Sample-Movie WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				0D1CEC621B52647300BA22BD /* video.mov */,
 				0D7142DD1B524A1000DA07E8 /* Interface.storyboard */,
 				0D7142E01B524A1000DA07E8 /* Assets.xcassets */,
 				0D7142E21B524A1000DA07E8 /* Info.plist */,
@@ -216,6 +221,7 @@
 		0D7142BE1B524A1000DA07E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = XuQing1001;
 				TargetAttributes = {
@@ -255,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1CEC671B5264E800BA22BD /* video.mov in Resources */,
 				0D7142D41B524A1000DA07E8 /* LaunchScreen.storyboard in Resources */,
 				0D7142D11B524A1000DA07E8 /* Assets.xcassets in Resources */,
 				0D7142CF1B524A1000DA07E8 /* Main.storyboard in Resources */,
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7142E11B524A1000DA07E8 /* Assets.xcassets in Resources */,
+				0D1CEC641B52647300BA22BD /* video.mov in Resources */,
 				0D7142DF1B524A1000DA07E8 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1CEC651B52647300BA22BD /* video.mov in Resources */,
 				0D7142F11B524A1000DA07E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +535,7 @@
 				0D7142F71B524A1000DA07E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7142F91B524A1000DA07E8 /* Build configuration list for PBXNativeTarget "WatchKit2-Sample-Movie WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				0D7142FB1B524A1000DA07E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7142FD1B524A1000DA07E8 /* Build configuration list for PBXNativeTarget "WatchKit2-Sample-Movie" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +553,7 @@
 				0D7142FF1B524A1000DA07E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
